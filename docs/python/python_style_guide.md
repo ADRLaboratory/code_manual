@@ -124,10 +124,10 @@ While not specified in [PEP 8], ADR only uses single-quoted strings.
 You can use double quotes `"` within a single-quoted string without escaping it.
 
 ```py
-string = 'They said there is "no need" to escape these quotes.'
+string = 'They say there is "no need" to escape these quotes.'
 ```
 
-See more about best practices with string formatting [here](python_best_practices.html#f-strings).
+See more about best practices with string formatting [here](python_best_practices.html#F-strings).
 
 ----
 
