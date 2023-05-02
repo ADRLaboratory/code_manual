@@ -24,7 +24,6 @@ If using a tab, make sure your text editor actually converts it into 4 spaces, a
 
 ```py
 # Correct:
-
 def some_function(foo):
     if foo:
         print('Hi')
@@ -32,7 +31,6 @@ def some_function(foo):
 
 ```py
 # Incorrect:
-
 def some_function(foo):
   if foo:               # Two spaces
            print('Hi')  # Any other number of spaces
@@ -55,7 +53,6 @@ def long_function_name(param_1, param_2, param_3,
                      param_2,
                      param_3,
                      param_4}
-
 ```
 
 Line breaks should occur before binary operations. Preferably wrap expressions in parentheses rather than using backslashes (`\`).
@@ -70,7 +67,7 @@ total = (value_A + value_B
 ```py
 # Preferably don't do this:
 total = value_A + value_B \
-        - (value_c * value_D) \
+        - (value_C * value_D) \
         + value_E
 ```
 
@@ -127,7 +124,7 @@ While not specified in [PEP 8], ADR only uses single-quoted strings.
 You can use double quotes `"` within a single-quoted string without escaping it.
 
 ```py
-string = 'They said there is "no need" to escape these quotes.`
+string = 'They said there is "no need" to escape these quotes.'
 ```
 
 See more about best practices with string formatting [here](python_best_practices.html#f-strings).
