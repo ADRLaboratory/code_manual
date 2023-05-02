@@ -1,0 +1,35 @@
+# https://just-the-docs.github.io/just-the-docs/docs/configuration/
+
+title: ADR Code Manual
+description: ADR Laboratory Coding Manual
+theme: just-the-docs
+
+url: https://adrlaboratory.github.io/code_manual
+
+aux_links:
+  Manual Repository: https://github.com/ADRLaboratory/code_manual
+
+favicon_ico: "/assets/images/adr.ico"
+
+nav_external_links:
+  - title: COMPAS
+    url: https://compas.dev/compas/latest/
+    hide_icon: false
+  - title: COMPAS FAB
+    url: https://gramaziokohler.github.io/compas_fab/latest/
+    hide_icon: false
+
+heading_anchors: true
+
+enable_copy_code_button: true
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: green
+  troubleshoot:
+    title: Troubleshooting
+    color: blue
